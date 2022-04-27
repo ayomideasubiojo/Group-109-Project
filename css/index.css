@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Open+Sans&family=Oswald:wght@300;400&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Open+Sans&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-weight: 700; */
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-layer-group{
+    color: hsl(0, 0%, 100%);
+}
+.header{
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(218, 28%, 15%);
+    padding-bottom: 6rem;
+}
+.semi-header{
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    margin-left: 11rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.header-buttons{
+    display:inline-flex;
+
+}
+.header-logo{
+    text-decoration: none;
+
+}
+
+.header-buttons h3{
+    padding-left: 7rem;
+}
+
+/* banner section */
+.banner{
+    background-image: url(/image/illustration-intro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 72vh;
+}
+
+/* second-content */
+.big-write-ups{
+    text-align: center;
+    font-size: 1.7rem;
+    color: hsl(0, 0%, 100%);
+}
+.small-write-ups{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+.btn{
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    color: white;
+    margin-left: 35rem;
+    background-color: hsl(198, 60%, 50%);
+}
+.button{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* second content */
+.semi-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 20rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 8rem;
+}
+.boxes{
+    background-color:hsl(218, 28%, 13%);
+}
+.two-boxes{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.box-text{
+    text-align: center;
+}
+/* hsl(217, 28%, 15%) */
+/* thuird */
+.side-picture{
+    background-color:hsl(218, 28%, 13%);
+}
+.semi-side-picture{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+.main-picture{
+    background-image: url(/image/illustration-stay-productive.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 40vh;
+}
+.main-texts{
+    text-align: start;
+    color: hsl(0, 0%, 100%);
+}
+.main-text{
+    font-size: 3rem;
+}
+
+/* forth */
+.testimonies{
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+}
+.semi-testimonies{
+    position: relative;
+    background-color: hsl(218, 28%, 13%);
+}
+.testimony-boxes{
+   position: relative; 
+    margin-left: 6rem;
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding-bottom: 20rem;
+}
+.tex-box{
+    position: relative;
+    text-align: start;
+    border: 1px solid hsl(219, 30%, 18%);
+    width: 28rem;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    padding-bottom: 2rem;
+    box-shadow: 0px 2px hsl(219, 30%, 18%);
+}
+.text-pics{
+    padding-top: 2rem;
+    margin-left: 1.4rem;
+    font-size: 1.2rem;
+}
+.pic-text{
+    margin-left: 1.4rem; 
+    display: flex;
+}
+.pics-text{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.tes-quote{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+
+/* last content */
+.subscribe{
+    color: hsl(0, 0%, 100%);
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+.subscribe h2{
+    font-size: 2.4rem;
+}
+.blank{
+    width: 30rem;
+    height: 2.8rem;
+    border-radius: 2rem;
+    border: none;
+    padding-left: -3rem;
+}
+.btn1{
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2.8rem;
+    color: white;
+    margin-left: 2rem;
+    background-color: hsl(198, 60%, 50%); 
+}
+.button1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.last-content{
+    position: relative;
+    background-color: hsl(216, 53%, 9%);
+}
+.semi-last-content{
+    top: -10rem;
+    left: 23.5%;
+    position: absolute;
+    background-color:hsl(217, 28%, 15%);
+    border: 2px solid hsl(219, 30%, 18%);
+    width: 54rem;
+}
+
+/* footer */
+.footer{
+    padding-top: 15rem;
+    padding-bottom: 4rem;
+}
+.semi-footer{
+    display: grid;
+    grid-template-columns: 38% 18% 11% 10% 12%;
+    margin-left: 15rem;
+}
+.company-logo p{
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 1.3rem;
+}
+.company-logo a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.contact{
+    font-weight: 100 !important;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.company-contact p, .about-us p, .contact-us p, .social-link button{
+    padding-bottom: 0.5rem;
+}
+.company-contact, .about-us, .contact-us, .social-link{
+    padding-top: 4.9rem;
+}
+.icon{
+    display: flex;
+}
+.fa-location-dot{
+    color: hsl(0, 0%, 100%);
+    padding-top: 2rem;
+}
+.contacts{
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+.social-button{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 100%);
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
