@@ -32,6 +32,11 @@ body{
     display:inline-flex;
 
 }
+
+.main-texts a {
+    color:rgba(15, 223, 223, 0.836);
+}
+
 .header-logo{
     text-decoration: none;
 
