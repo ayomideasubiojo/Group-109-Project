@@ -43,7 +43,7 @@ body{
 
 /* banner section */
 .banner{
-    background-image: url(/image/illustration-intro.png);
+    background-image: url(./../image/illustration-intro.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -110,7 +110,7 @@ body{
     padding-bottom: 3rem;
 }
 .main-picture{
-    background-image: url(/image/illustration-stay-productive.png);
+    background-image: url(./../image/illustration-stay-productive.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
