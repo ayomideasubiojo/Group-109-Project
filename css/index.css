@@ -92,91 +92,73 @@ body{
     top: -210px;
     z-index: -1;
 }
-
-/* banner section */
-.banner{
-    background-image: url(./../image/illustration-intro.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 72vh;
-}
-
-/* second-content */
-.big-write-ups{
-    text-align: center;
-    font-size: 1.7rem;
-    color: hsl(0, 0%, 100%);
-}
-.small-write-ups{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 1.2rem;
-    color: hsl(0, 0%, 100%);
-}
-.btn{
-    border: none;
-    border-radius: 2rem;
-    margin-top: 1rem;
-    width: 15rem;
-    height: 3rem;
-    color: white;
-    margin-left: 35rem;
-    background-color: hsl(198, 60%, 50%);
-}
-.button{
-    color: hsl(0, 0%, 100%);
-    font-weight: 400;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
 /* second content */
-.semi-boxes{
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 20rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    margin-left: 8rem;
+.sec2{
+    width: 100%;
+    height: auto;
+    background: hsl(218, 28%, 13%);
+    position: relative;
+    top: -210px;
+    z-index: -1;
 }
 .boxes{
-    background-color:hsl(218, 28%, 13%);
+    width: 70%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .two-boxes{
-    text-align: center;
-    color: hsl(0, 0%, 100%);
+    margin: 30px 0;
 }
-.box-text{
-    text-align: center;
+.two-boxes img{
+    width: 70px;
+    height: auto;   
+    margin-bottom: 25px;
+}
+.desc-1{
+    width: 400px;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+}
+.desc-1 h3{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
 }
 /* hsl(217, 28%, 15%) */
-/* thuird */
-.side-picture{
-    background-color:hsl(218, 28%, 13%);
+/* third section */
+#img1{
+    width: 550px;
+    height: auto;
 }
-.semi-side-picture{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    padding-top: 8rem;
-    padding-bottom: 3rem;
-}
-.main-picture{
-    background-image: url(./../image/illustration-stay-productive.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50rem;
-    height: 40vh;
+.sec3{
+    width: 85%;
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .main-texts{
-    text-align: start;
-    color: hsl(0, 0%, 100%);
+    width: 550px;
 }
-.main-text{
-    font-size: 3rem;
+.main-texts h1{
+    font-size: 2rem;
+    width: 300px;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
 }
-
+.main-texts p{
+    margin-bottom: 30px;
+}
+.main-texts a{
+    color: #59d6be;
+    margin-right: 7px;
+}
 /* forth */
 .testimonies{
     background-color: hsl(218, 28%, 13%);
